@@ -41,3 +41,24 @@ exports.axes = {
     axisBottom: exports.axis,
     axisLeft: exports.axis,
 }
+
+// exports.defs = Joi.array().items(
+//   Joi.object().keys({
+//     id: Joi.string(),
+//     type: Joi.string(),
+//     background: Joi.string(),
+//     color: Joi.string(),
+//     size: Joi.number(),
+//     padding: Joi.number(),
+//     stagger: Joi.boolean()
+//   })
+// )
+//
+// exports.fill = Joi.array().items(
+//   Joi.object().keys({
+//     id: Joi.string(),
+//     match: Joi.object().keys({
+//       id: Joi.string()
+//     })
+//   })
+// )
